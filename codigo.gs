@@ -1,5 +1,3 @@
-//https://api.telegram.org/bot5863229087:AAFMwbSOIsub0jWBbBxjoOz8w9rV3pCedtw/setWebhook?url=
-
 const tgbot = new TGbot.tgbot("<API-KEY-BOT>");
 const ss = SpreadsheetApp.openById("<ID-SHEETS>").getSheetByName("db_bot");
 
